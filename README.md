@@ -1,102 +1,44 @@
-<h1 align="center"> Veve News Landing Page </h1> <br>
-<p align="center">
-  <a href="https://veve.pw/">
-    <img alt="GitPoint" title="GitPoint" src="https://res.cloudinary.com/trujamal/image/upload/v1544043010/Veve/Logo.png" width="450">
-  </a>
-</p>
+# veve-pw
 
-<p align="center">
-  News without the hassle in your pocket. Built with React Native.
-</p>
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://veve.pw)
+[![Build Status](https://travis-ci.org/Microsoft/TypeScript.svg?branch=master)](https://veve.pw)
+[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://veve.pw)
+[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://veve.pw)
+[![Logo](https://cl.ly/36ac2cb8459e/Image%202019-04-12%20at%208.56.20%20PM.png)](https://veve.pw)
 
+An attempt on a temporary waste solution.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+## Installation
+We recommend you clone the repo for easiest implementation:
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Feedback](#feedback)
-- [Contributors](#contributors)
-- [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+```
+git clone https://github.com/Veve-llc/veve-preloader.git
+```
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Usage
 
-## Introduction
+Please run the following command once you've cloned the repo in order to run the project files.
+Using programs as referenced.
 
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.com/trujamal/Veve-news.svg?token=N88JKysXurxML8XNqTkX&branch=master)
-<!--
-[![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
-[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
+### Setup Keys
+If there must be any key generation link it in this section
 
--->
+### Use the whole directory as needed
+It is designed to be an easy, and ready to go start off tempalate for your hydrogen projects.
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+## Requirements
+* Unix machine
+* Windows Machine
+* MacOS Machine
 
-**Available for both iOS and Android.**
+## Documentation
 
-<!--
-<p align="center">
-  <img src = "http://i.imgur.com/HowF6aM.png" width=350>
-</p>
-
--->
-
-## Features
-
-A few of the things you can do with GitPoint:
-
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
-
-<!--
-<p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
-</p>
-
-<p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
-</p>
-
--->
-
-## Feedback
-
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
-
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
-
-## Contributors
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
-
-## Build Process
-
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code. **A Mac is required if you wish to develop for iOS.**
-- Clone or download the repo
-- `yarn` to install dependencies
-- `yarn run link` to link react-native dependencies
-- `yarn start:ios` to start the packager and run the app in the iOS simulator (`yarn start:ios:logger` will boot the application with [redux-logger](<https://github.com/evgenyrodionov/redux-logger>))
-- `yarn start:android` to start the packager and run the app in the the Android device/emulator (`yarn start:android:logger` will boot the application with [redux-logger](https://github.com/evgenyrodionov/redux-logger))
-
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
-
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
+Take a look at the [documentation table of contents](dist/doc/TOC.md).
+This documentation is bundled with the project which makes it
+available for offline reading and provides a useful starting point for
+any documentation you want to write about your project.
 
 
-## Acknowledgments
+## License
 
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
+The code is available under the [MIT license](LICENSE.txt).
